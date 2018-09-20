@@ -1,0 +1,197 @@
+/**
+ * Black theme for reveal.js. This is the opposite of the 'white' theme.
+ *
+ * Copyright (C) 2015 Hakim El Hattab, http://hakim.se
+ */
+
+ // This file has been copied over from
+ // ../../bower_components/reveal.js/css/theme/source/black.scss
+
+ // See ../../bower_components/reveal.js/css/theme/README.md
+ // for further explanations on how to create a custom reveal.js theme.
+
+// Default mixins and settings -----------------
+@import "../../bower_components/reveal.js/css/theme/template/mixins";
+@import "../../bower_components/reveal.js/css/theme/template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(../bower_components/roboto-fontface/css/roboto/roboto-fontface.css);
+
+// Override theme settings (see ../../bower_components/reveal.js/css/theme/template/settings.scss)
+$backgroundColor: #fafafa;
+
+$mainColor: #222;
+$headingColor: #222;
+
+$mainFontSize: 38px;
+$mainFont: 'Roboto-Regular', Helvetica, 'Source Sans Pro',  sans-serif;
+$headingFont: 'Roboto-Light', Helvetica, 'Source Sans Pro',  sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: none;
+$headingFontWeight: 600;
+$linkColor: #527fc0;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+$heading1Size: 2.5em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+section.has-light-background {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: #222;
+	}
+}
+
+.logo-container {
+    //display: inline-block;
+    position: absolute;
+    //top: 90%;
+    //right: 50%;
+    left: 30px;
+    bottom: 30px;
+    width: 160px;
+}
+
+.logo-upper {
+    bottom: 100px;
+}
+
+.logo-container #sqadays_logo {
+    width: 100%;
+    height: auto;
+}
+
+.logo-container #dins_logo {
+    width: 100%;
+    height: auto;
+}
+
+.reveal .slide-number {
+    font-size: 32px;
+}
+
+.ci-is-easy {
+    text-transform: uppercase !important;
+}
+
+.roboto-thin {
+    font-family: 'Roboto-Thin', Helvetica, 'Source Sans Pro',  sans-serif !important;
+    font-weight: 100 !important;
+}
+
+.roboto-light {
+    font-family: 'Roboto-Light', Helvetica, 'Source Sans Pro',  sans-serif !important;
+    font-weight: 300 !important;
+}
+
+.roboto-regular {
+    font-family: 'Roboto-Regular', Helvetica, 'Source Sans Pro',  sans-serif !important;
+    font-weight: 400 !important;
+}
+
+.roboto-medium {
+    font-family: 'Roboto-Medium', Helvetica, 'Source Sans Pro',  sans-serif !important;
+    font-weight: 500 !important;
+}
+
+.roboto-bold {
+    font-family: 'Roboto-Bold', Helvetica, 'Source Sans Pro',  sans-serif !important;
+    font-weight: 700 !important;
+}
+
+.roboto-black {
+    font-family: 'Roboto-Black', Helvetica, 'Source Sans Pro',  sans-serif !important;
+    font-weight: 900 !important;
+}
+
+
+.color-red {
+    color: #CC333F !important;
+}
+
+.color-green {
+    color: #47985B !important;
+}
+
+.color-cyan {
+    color: #00A0B0 !important;
+}
+
+.color-blue {
+    color:  #2D415E !important;
+}
+
+.high-line {
+    line-height: 1.8 !important;
+}
+
+.flex-row-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.flex-column-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.aligned-right {
+    align-items: flex-end;
+}
+
+.aligned-left {
+    align-items: flex-start;
+}
+
+.flex-column-container div {
+    line-height: 1.8;
+}
+
+.circle {
+    position: relative;
+    display: block;
+    margin: 2em 0;
+    text-align: center;
+}
+
+.circle:after {
+    display: block;
+    padding-bottom: 100%;
+    width: 100%;
+    height: 0;
+    border-radius: 50%;
+    background-color: #e3e6e4;
+    content: "";
+}
+
+.circle__inner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.circle__wrapper {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.circle__content {
+    display: table-cell;
+    padding: 100em;
+    vertical-align: middle !important;
+}
+
+// Theme template ------------------------------
+@import "../../bower_components/reveal.js/css/theme/template/theme";
+// ---------------------------------------------

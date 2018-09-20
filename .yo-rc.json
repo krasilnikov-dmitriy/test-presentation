@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Continuous Integration at Scale",
+    "packageVersion": "1.0.0",
+    "useSass": true,
+    "deployToGithubPages": true,
+    "githubUsername": "dins-presentations",
+    "githubRepository": "sqadays-23-2018"
+  }
+}

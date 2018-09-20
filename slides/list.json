@@ -1,0 +1,51 @@
+[
+    "index.html",
+
+
+    "0_introduction/00_why_we_speak_about_e2e.html",
+    "0_introduction/10_integrated_tests_are_scam.html",
+    "0_introduction/20_say_no_more_e2e_tests.html",
+    "0_introduction/30_what_are_the_profit_of_tests.html",
+    {
+        "filename": "0_introduction/40_types_of_testing.html",
+        "attr": {
+            "data-background-image": "resources/img/wordcloud.png",
+            "data-background-transition": "slide"
+        }
+    },
+
+
+    {
+        "filename": "1_component_tests/00_component_testing.html",
+        "attr": {
+            "data-background-image": "resources/img/component.png",
+            "data-background-transition": "slide"
+        }
+    },
+    "1_component_tests/10_component_environment_as_a_code.html",
+    "1_component_tests/20_component_environment_gradle.html",
+    "1_component_tests/30_component_environment_test_containers.html",
+    "1_component_tests/40_test_containers_example.html",
+    "1_component_tests/50_component_tests_problem.html",
+
+
+    {
+        "filename": "2_cdc/00_pact.html",
+        "attr": {
+            "data-background-image": "resources/img/pact.png",
+            "data-background-transition": "slide"
+        }
+    },
+    {
+        "filename": "2_cdc/10_pact_frameworks.html",
+        "attr": {
+            "data-background-image": "resources/img/cdc.png",
+            "data-background-transition": "slide"
+        }
+    },
+    "2_cdc/20_pact_example.html",
+
+
+    "questions.html",
+    "contacts.html"
+]

@@ -1,0 +1,33 @@
+{
+  "name": "reveal-js-and-yeoman-is-awesomeness",
+  "version": "0.0.0",
+  "private": true,
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "grunt": "^1.0.0",
+    "grunt-sass": "^2.0.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "load-grunt-tasks": "^3.5.2",
+    "grunt-build-control": "^0.7.1",
+    "grunt-coffeelint": "0.0.16",
+    "coffeelint": "^1.16.0",
+    "hoek": "^4.2.1"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dins-presentations/sqadays-23-2018.git"
+  },
+  "scripts": {
+    "test": "grunt test",
+    "postinstall": "./node_modules/bower/bin/bower install"
+  },
+  "dependencies": {
+    "npm": "^6.1.0"
+  }
+}
